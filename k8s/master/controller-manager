@@ -1,0 +1,10 @@
+###
+# The following values are used to configure the kubernetes controller-manager
+
+# defaults from config and apiserver should be adequate
+
+# Comma separated list of minions
+#KUBELET_ADDRESSES="--machines=host10-rack08.scale.openstack.engineering.redhat.com,host12-rack08.scale.openstack.engineering.redhat.com,host14-rack08.scale.openstack.engineering.redhat.com,host16-rack08.scale.openstack.engineering.redhat.com,"
+
+# Add you own!
+KUBE_CONTROLLER_MANAGER_ARGS=""

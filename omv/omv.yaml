@@ -1,0 +1,31 @@
+---
+:domain: example.com
+:network: 192.168.123.0/24
+:image: fedora-22
+:boxurlprefix: ''
+:sync: rsync
+:folder: ''
+:extern: []
+:puppet: false
+:classes: []
+:shell: []
+:docker: false
+:kubernetes: false
+:ansible: []
+:playbook: []
+:cachier: false
+:vms:
+- :name: fed-master1
+- :name: fed-master2
+- :name: fed-master3
+- :name: fed-node1
+- :name: fed-node2
+:namespace: omv
+:count: 0
+:username: []
+:password: []
+:poolid: []
+:repos: 
+:update: true
+:comment: simple shell run example
+:reallyrm: false
